@@ -2,6 +2,6 @@ language: node_js
 node_js:
   - "0.10"
 notifications:
-  webhooks: http://test1.phluant.com/deploy/?path=/var/www/repositories/campaigns2
+  webhooks: http://origin.phluant.com/deploy/?path=/var/www/campaigns
   email:
     - mschneider@phluant.com
