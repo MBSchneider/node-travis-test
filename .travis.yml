@@ -3,3 +3,5 @@ node_js:
   - "0.10"
 notifications:
   webhooks: http://test1.phluant.com/deploy/?path=/var/www/repositories/campaigns2
+  email:
+    - mschneider@phluant.com
