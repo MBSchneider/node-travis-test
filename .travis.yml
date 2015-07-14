@@ -2,6 +2,14 @@ language: node_js
 node_js:
   - "0.10"
 notifications:
-  webhooks: http://origin.phluant.com/deploy/?path=/var/www/campaigns
+  webhooks:
+    urls:
+    - http://origin.phluant.com/deploy/?path=/var/www/campaigns
+    on_success: always
+    on_failure: never
+    on_start: never
   email:
-    - mschneider@phluant.com
+    recipients:
+      - mschneider@phluant.com
+    on_success: always
+    on_failure: always
